@@ -1,0 +1,8 @@
+{
+  "name": "Payoo AI Assistant",
+  "description": "A real-time, voice-to-voice AI girlfriend with a witty, sassy, and playful personality.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
