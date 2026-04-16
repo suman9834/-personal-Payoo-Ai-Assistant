@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💜 Payoo AI – Voice Assistant
 
-# Run and deploy your AI Studio app
+A real-time voice-to-voice AI assistant built using React, TypeScript, Tailwind CSS, and Gemini Live API.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/04011e00-9132-4d76-948e-112441b1a345
+- 🎤 Real-time voice interaction (no typing)
+- 💬 Sassy, witty AI personality (Zoya)
+- ⚡ Fast responses using Gemini API
+- 🌌 Modern futuristic UI
+- 🔊 Audio streaming (input + output)
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- React + Vite
+- TypeScript
+- Tailwind CSS
+- Gemini API (Google AI)
 
+## 🎯 How it Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. User speaks through microphone
+2. Audio is streamed to AI
+3. AI processes and responds with voice
+4. Real-time conversation experience
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file:
+
+```
+GEMINI_API_KEY=your_api_key
+APP_URL=http://localhost:5173
+```
+Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+
+## 🌍 Live Demo
+
+👉 (Add your Vercel link here)
+
+## 👨‍💻 Author
+
+Suman Kumar  
+B.Tech CSE (AI)
+
+⭐ If you like this project, give it a star!
